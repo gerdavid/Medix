@@ -8,8 +8,8 @@ class Mail extends PhpMailer
     public $Host     = 'smtp.gmail.com';
     public $Mailer   = 'smtp';
     public $SMTPAuth = true;
-    public $Username = 'dmcsolutions7@gmail.com';
-    public $Password = 'oxygenbar';
+    public $Username = '';
+    public $Password = '';
     public $SMTPSecure = 'tls';
     public $Port = 587;
     public $WordWrap = 75;
